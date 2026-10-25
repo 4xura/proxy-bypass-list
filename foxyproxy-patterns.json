@@ -11,6 +11,13 @@
   "blackPatterns": [
     {
       "title": "",
+      "pattern": "shodan.io",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "addons.mozilla.org",
       "type": 1,
       "protocols": 1,

@@ -9,6 +9,13 @@
   {
     "include": "exclude",
     "type": "regex",
+    "title": "shodan.io",
+    "pattern": "^(?:https?|wss?)://shodan\\.io(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
     "title": "addons.mozilla.org",
     "pattern": "^(?:https?|wss?)://addons\\.mozilla\\.org(?::[0-9]+)?/",
     "active": true
