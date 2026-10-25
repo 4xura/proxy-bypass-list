@@ -11,21 +11,28 @@
   "blackPatterns": [
     {
       "title": "",
-      "pattern": "*.shodan.io",
+      "pattern": "*.2mdn.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.addons.mozilla.org",
+      "pattern": "*.admob.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.ads.mozilla.org",
+      "pattern": "*.android.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.app-measurement.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -39,14 +46,21 @@
     },
     {
       "title": "",
-      "pattern": "*.archive.mozilla.org",
+      "pattern": "*.bing.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.aus5.mozilla.org",
+      "pattern": "*.bing.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.bingapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -60,13 +74,6 @@
     },
     {
       "title": "",
-      "pattern": "*.blocklists.settings.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
       "pattern": "*.browser.pipe.aria.microsoft.com",
       "type": 1,
       "protocols": 1,
@@ -74,7 +81,14 @@
     },
     {
       "title": "",
-      "pattern": "*.business.bing.com",
+      "pattern": "*.chrome.google",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.chromium.org",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -88,126 +102,21 @@
     },
     {
       "title": "",
-      "pattern": "*.classify-client.services.mozilla.com",
+      "pattern": "*.doubleclick.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.clients1.google.com",
+      "pattern": "*.doubleclick.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.clients2.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.clients2.googleusercontent.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.clients3.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.clients4.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.clients5.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.clients6.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.clientservices.googleapis.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.connectivitycheck.gstatic.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.content-signature-2.cdn.mozilla.net",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.contile-images.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.contile.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.detectportal.firefox.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.dl-ssl.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.dl.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.download.cdn.mozilla.net",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.download.mozilla.org",
+      "pattern": "*.doubleclickusercontent.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -228,21 +137,7 @@
     },
     {
       "title": "",
-      "pattern": "*.edgedl.me.gvt1.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
       "pattern": "*.enterprise.activity.windows.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.enterprise-safebrowsing.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -256,28 +151,1505 @@
     },
     {
       "title": "",
-      "pattern": "*.firefox.settings.services.mozilla.com",
+      "pattern": "*.firefox.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.firefox-settings-attachments.cdn.mozilla.net",
+      "pattern": "*.g.co",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.ftp.mozilla.org",
+      "pattern": "*.getpocket.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.getpocket.cdn.mozilla.net",
+      "pattern": "*.ggpht.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gmail.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gmodules.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.goo.gl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google-analytics.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google-syndication.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ad",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ae",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.al",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.am",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.as",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.at",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.az",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ba",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.be",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.bf",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.bg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.bi",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.bj",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.bs",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.bt",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.by",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ca",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cat",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cd",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cf",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ch",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ci",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ao",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.bw",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ck",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.cr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.id",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.il",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.in",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.jp",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ke",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.kr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ls",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ma",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.mz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.nz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.th",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.tz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ug",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.uk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.uz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.ve",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.vi",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.za",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.zm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.co.zw",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.af",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ag",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ar",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.au",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.bd",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.bh",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.bn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.bo",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.br",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.bz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.co",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.cu",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.cy",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.do",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ec",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.eg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.et",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.fj",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.gh",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.gi",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.gt",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.hk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.jm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.kh",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.kw",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.lb",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ly",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.mm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.mt",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.mx",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.my",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.na",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ng",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ni",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.np",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.om",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.pa",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.pe",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.pg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ph",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.pk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.pr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.py",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.qa",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.sa",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.sb",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.sg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.sl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.sv",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.tj",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.tr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.tw",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.ua",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.uy",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.vc",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.com.vn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cv",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.cz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.de",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.dj",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.dk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.dm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.dz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ee",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.es",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.fi",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.fm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.fr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ga",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ge",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.gg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.gl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.gm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.gr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.gy",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.hn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.hr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ht",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.hu",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ie",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.im",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.iq",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.is",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.it",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.je",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.jo",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.kg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ki",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.kz",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.la",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.li",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.lk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.lt",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.lu",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.lv",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.md",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.me",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.mg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.mk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ml",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.mn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.mu",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.mv",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.mw",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ne",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.nl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.no",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.nr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.nu",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.org",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.pl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.pn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ps",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.pt",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ro",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.rs",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ru",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.rw",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.sc",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.se",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.sh",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.si",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.sk",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.sm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.sn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.so",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.sr",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.st",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.td",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.tg",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.tl",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.tm",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.tn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.to",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.tt",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.vu",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.google.ws",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleadservices.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleadsserving.cn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleapis.cn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleapis.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleapps.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googlecode.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googledrive.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googlehosted.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleoptimize.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googlesource.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googlesyndication.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googletagmanager.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googletagservices.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleusercontent.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googlevideo.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googleweblight.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.googlezip.net",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -291,6 +1663,48 @@
     },
     {
       "title": "",
+      "pattern": "*.gstatic.cn",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gstatic.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gvt1.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gvt2.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gvt3.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.gvt9.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "*.img-prod-cms-rt-microsoft-com.akamaized.net",
       "type": 1,
       "protocols": 1,
@@ -298,35 +1712,14 @@
     },
     {
       "title": "",
-      "pattern": "*.incoming.telemetry.mozilla.org",
+      "pattern": "*.mozaws.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.location.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.merino.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.mitmdetection.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.mozilla-ohttp-dap.mozilla.fastly-edge.com",
+      "pattern": "*.mozgcp.net",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -340,7 +1733,28 @@
     },
     {
       "title": "",
-      "pattern": "*.normandy.cdn.mozilla.net",
+      "pattern": "*.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.mozilla.fastly-edge.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.mozilla.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "*.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -361,13 +1775,6 @@
     },
     {
       "title": "",
-      "pattern": "*.ocsp.pki.goog",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
       "pattern": "*.ocws.officeapps.live.com",
       "type": 1,
       "protocols": 1,
@@ -382,119 +1789,21 @@
     },
     {
       "title": "",
-      "pattern": "*.ohttp-gateway-merino.services.mozilla.com",
+      "pattern": "*.pki.goog",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.ohttp-merino.mozilla.fastly-edge.com",
+      "pattern": "*.recaptcha.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.optimizationguide-pa.googleapis.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.prod.ohttp-gateway.prod.webservices.mozgcp.net",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.push.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.redirector.gvt1.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.safebrowsing-cache.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.safebrowsing.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.safebrowsing.googleapis.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.safebrowsingrealtime.googleapis.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.sb-ssl.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.search.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.services.addons.mozilla.org",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.shavar.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.snippets.cdn.mozilla.net",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.spocs.getpocket.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.static.addons.mozilla.net",
+      "pattern": "*.shodan.io",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -508,28 +1817,7 @@
     },
     {
       "title": "",
-      "pattern": "*.sync-1-us-west1-g.sync.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.token.services.mozilla.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.tools.google.com",
-      "type": 1,
-      "protocols": 1,
-      "active": true
-    },
-    {
-      "title": "",
-      "pattern": "*.tracking-protection.cdn.mozilla.net",
+      "pattern": "*.translate.goog",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -543,35 +1831,35 @@
     },
     {
       "title": "",
-      "pattern": "*.update.googleapis.com",
+      "pattern": "*.withgoogle.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.versioncheck-bg.addons.mozilla.org",
+      "pattern": "*.youtu.be",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.versioncheck.addons.mozilla.org",
+      "pattern": "*.youtube-nocookie.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.www.bing.com",
+      "pattern": "*.youtube.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "*.www.googletagmanager.com",
+      "pattern": "*.ytimg.com",
       "type": 1,
       "protocols": 1,
       "active": true

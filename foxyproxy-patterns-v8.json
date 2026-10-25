@@ -9,22 +9,29 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "shodan.io",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*shodan\\.io(?::[0-9]+)?/",
+    "title": "2mdn.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*2mdn\\.net(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "addons.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "admob.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*admob\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "ads.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ads\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "android.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*android\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "app-measurement.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*app-measurement\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -37,15 +44,22 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "archive.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*archive\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "bing.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*bing\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "aus5.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*aus5\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "bing.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*bing\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "bingapis.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*bingapis\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -58,13 +72,6 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "blocklists.settings.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*blocklists\\.settings\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
     "title": "browser.pipe.aria.microsoft.com",
     "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*browser\\.pipe\\.aria\\.microsoft\\.com(?::[0-9]+)?/",
     "active": true
@@ -72,8 +79,15 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "business.bing.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*business\\.bing\\.com(?::[0-9]+)?/",
+    "title": "chrome.google",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*chrome\\.google(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "chromium.org",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*chromium\\.org(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -86,127 +100,22 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "classify-client.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*classify-client\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "title": "doubleclick.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*doubleclick\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "clients1.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients1\\.google\\.com(?::[0-9]+)?/",
+    "title": "doubleclick.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*doubleclick\\.net(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "clients2.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients2\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "clients2.googleusercontent.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients2\\.googleusercontent\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "clients3.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients3\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "clients4.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients4\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "clients5.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients5\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "clients6.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clients6\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "clientservices.googleapis.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*clientservices\\.googleapis\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "connectivitycheck.gstatic.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*connectivitycheck\\.gstatic\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "content-signature-2.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*content-signature-2\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "contile-images.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*contile-images\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "contile.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*contile\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "detectportal.firefox.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*detectportal\\.firefox\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "dl-ssl.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*dl-ssl\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "dl.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*dl\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "download.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*download\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "download.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*download\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "doubleclickusercontent.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*doubleclickusercontent\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -226,22 +135,8 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "edgedl.me.gvt1.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*edgedl\\.me\\.gvt1\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
     "title": "enterprise.activity.windows.com",
     "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*enterprise\\.activity\\.windows\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "enterprise-safebrowsing.googleapis.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*enterprise-safebrowsing\\.googleapis\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -254,29 +149,1506 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "firefox.settings.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*firefox\\.settings\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "title": "firefox.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*firefox\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "firefox-settings-attachments.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*firefox-settings-attachments\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "title": "g.co",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*g\\.co(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "ftp.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ftp\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "getpocket.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*getpocket\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "getpocket.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*getpocket\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "title": "ggpht.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ggpht\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gmail.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gmail\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gmodules.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gmodules\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "goo.gl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*goo\\.gl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google-analytics.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google-analytics\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google-syndication.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google-syndication\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ad",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ad(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ae",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ae(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.al",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.al(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.am",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.am(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.as",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.as(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.at",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.at(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.az",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.az(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ba",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ba(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.be",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.be(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.bf",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.bf(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.bg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.bg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.bi",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.bi(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.bj",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.bj(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.bs",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.bs(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.bt",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.bt(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.by",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.by(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ca",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ca(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cat",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cat(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cd",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cd(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cf",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cf(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ch",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ch(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ci",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ci(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ao",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ao(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.bw",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.bw(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ck",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ck(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.cr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.cr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.id",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.id(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.il",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.il(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.in",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.in(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.jp",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.jp(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ke",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ke(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.kr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.kr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ls",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ls(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ma",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ma(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.mz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.mz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.nz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.nz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.th",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.th(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.tz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.tz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ug",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ug(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.uk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.uk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.uz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.uz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.ve",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.ve(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.vi",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.vi(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.za",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.za(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.zm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.zm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.co.zw",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.co\\.zw(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.af",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.af(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ag",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ag(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ar",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ar(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.au",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.au(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.bd",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.bd(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.bh",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.bh(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.bn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.bn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.bo",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.bo(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.br",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.br(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.bz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.bz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.co",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.co(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.cu",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.cu(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.cy",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.cy(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.do",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.do(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ec",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ec(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.eg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.eg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.et",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.et(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.fj",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.fj(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.gh",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.gh(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.gi",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.gi(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.gt",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.gt(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.hk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.hk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.jm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.jm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.kh",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.kh(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.kw",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.kw(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.lb",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.lb(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ly",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ly(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.mm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.mm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.mt",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.mt(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.mx",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.mx(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.my",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.my(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.na",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.na(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ng",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ng(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ni",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ni(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.np",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.np(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.om",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.om(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.pa",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.pa(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.pe",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.pe(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.pg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.pg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ph",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ph(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.pk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.pk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.pr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.pr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.py",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.py(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.qa",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.qa(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.sa",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.sa(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.sb",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.sb(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.sg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.sg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.sl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.sl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.sv",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.sv(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.tj",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.tj(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.tr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.tr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.tw",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.tw(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.ua",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.ua(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.uy",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.uy(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.vc",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.vc(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.com.vn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.com\\.vn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cv",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cv(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.cz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.cz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.de",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.de(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.dj",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.dj(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.dk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.dk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.dm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.dm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.dz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.dz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ee",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ee(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.es",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.es(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.fi",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.fi(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.fm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.fm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.fr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.fr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ga",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ga(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ge",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ge(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.gg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.gg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.gl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.gl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.gm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.gm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.gr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.gr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.gy",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.gy(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.hn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.hn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.hr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.hr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ht",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ht(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.hu",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.hu(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ie",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ie(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.im",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.im(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.iq",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.iq(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.is",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.is(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.it",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.it(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.je",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.je(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.jo",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.jo(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.kg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.kg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ki",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ki(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.kz",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.kz(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.la",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.la(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.li",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.li(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.lk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.lk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.lt",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.lt(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.lu",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.lu(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.lv",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.lv(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.md",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.md(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.me",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.me(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.mg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.mg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.mk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.mk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ml",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ml(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.mn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.mn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.mu",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.mu(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.mv",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.mv(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.mw",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.mw(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ne",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ne(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.nl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.nl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.no",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.no(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.nr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.nr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.nu",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.nu(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.org",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.pl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.pl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.pn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.pn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ps",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ps(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.pt",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.pt(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ro",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ro(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.rs",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.rs(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ru",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ru(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.rw",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.rw(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.sc",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.sc(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.se",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.se(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.sh",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.sh(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.si",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.si(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.sk",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.sk(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.sm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.sm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.sn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.sn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.so",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.so(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.sr",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.sr(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.st",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.st(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.td",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.td(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.tg",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.tg(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.tl",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.tl(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.tm",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.tm(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.tn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.tn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.to",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.to(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.tt",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.tt(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.vu",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.vu(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "google.ws",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*google\\.ws(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleadservices.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleadservices\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleadsserving.cn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleadsserving\\.cn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleapis.cn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleapis\\.cn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleapis.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleapps.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleapps\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googlecode.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googlecode\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googledrive.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googledrive\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googlehosted.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googlehosted\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleoptimize.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleoptimize\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googlesource.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googlesource\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googlesyndication.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googlesyndication\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googletagmanager.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googletagmanager\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googletagservices.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googletagservices\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleusercontent.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleusercontent\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googlevideo.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googlevideo\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googleweblight.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googleweblight\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "googlezip.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*googlezip\\.net(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -289,6 +1661,48 @@
   {
     "include": "exclude",
     "type": "regex",
+    "title": "gstatic.cn",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gstatic\\.cn(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gstatic.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gstatic\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gvt1.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gvt1\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gvt2.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gvt2\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gvt3.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gvt3\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "gvt9.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*gvt9\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
     "title": "img-prod-cms-rt-microsoft-com.akamaized.net",
     "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*img-prod-cms-rt-microsoft-com\\.akamaized\\.net(?::[0-9]+)?/",
     "active": true
@@ -296,36 +1710,15 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "incoming.telemetry.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*incoming\\.telemetry\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "mozaws.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozaws\\.net(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "location.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*location\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "merino.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*merino\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "mitmdetection.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mitmdetection\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "mozilla-ohttp-dap.mozilla.fastly-edge.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozilla-ohttp-dap\\.mozilla\\.fastly-edge\\.com(?::[0-9]+)?/",
+    "title": "mozgcp.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozgcp\\.net(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -338,8 +1731,29 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "normandy.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*normandy\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "title": "mozilla.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "mozilla.fastly-edge.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozilla\\.fastly-edge\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "mozilla.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "mozilla.org",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*mozilla\\.org(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -359,13 +1773,6 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "ocsp.pki.goog",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ocsp\\.pki\\.goog(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
     "title": "ocws.officeapps.live.com",
     "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ocws\\.officeapps\\.live\\.com(?::[0-9]+)?/",
     "active": true
@@ -380,120 +1787,22 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "ohttp-gateway-merino.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ohttp-gateway-merino\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "title": "pki.goog",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*pki\\.goog(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "ohttp-merino.mozilla.fastly-edge.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ohttp-merino\\.mozilla\\.fastly-edge\\.com(?::[0-9]+)?/",
+    "title": "recaptcha.net",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*recaptcha\\.net(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "optimizationguide-pa.googleapis.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*optimizationguide-pa\\.googleapis\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "prod.ohttp-gateway.prod.webservices.mozgcp.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*prod\\.ohttp-gateway\\.prod\\.webservices\\.mozgcp\\.net(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "push.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*push\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "redirector.gvt1.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*redirector\\.gvt1\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "safebrowsing-cache.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*safebrowsing-cache\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "safebrowsing.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*safebrowsing\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "safebrowsing.googleapis.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*safebrowsing\\.googleapis\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "safebrowsingrealtime.googleapis.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*safebrowsingrealtime\\.googleapis\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "sb-ssl.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*sb-ssl\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "search.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*search\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "services.addons.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*services\\.addons\\.mozilla\\.org(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "shavar.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*shavar\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "snippets.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*snippets\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "spocs.getpocket.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*spocs\\.getpocket\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "static.addons.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*static\\.addons\\.mozilla\\.net(?::[0-9]+)?/",
+    "title": "shodan.io",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*shodan\\.io(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -506,29 +1815,8 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "sync-1-us-west1-g.sync.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*sync-1-us-west1-g\\.sync\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "token.services.mozilla.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*token\\.services\\.mozilla\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "tools.google.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*tools\\.google\\.com(?::[0-9]+)?/",
-    "active": true
-  },
-  {
-    "include": "exclude",
-    "type": "regex",
-    "title": "tracking-protection.cdn.mozilla.net",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*tracking-protection\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "title": "translate.goog",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*translate\\.goog(?::[0-9]+)?/",
     "active": true
   },
   {
@@ -541,36 +1829,36 @@
   {
     "include": "exclude",
     "type": "regex",
-    "title": "update.googleapis.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*update\\.googleapis\\.com(?::[0-9]+)?/",
+    "title": "withgoogle.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*withgoogle\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "versioncheck-bg.addons.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*versioncheck-bg\\.addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "youtu.be",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*youtu\\.be(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "versioncheck.addons.mozilla.org",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*versioncheck\\.addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "title": "youtube-nocookie.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*youtube-nocookie\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "www.bing.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*www\\.bing\\.com(?::[0-9]+)?/",
+    "title": "youtube.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*youtube\\.com(?::[0-9]+)?/",
     "active": true
   },
   {
     "include": "exclude",
     "type": "regex",
-    "title": "www.googletagmanager.com",
-    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*www\\.googletagmanager\\.com(?::[0-9]+)?/",
+    "title": "ytimg.com",
+    "pattern": "^(?:https?|wss?)://(?:[a-z0-9_-]+\\.)*ytimg\\.com(?::[0-9]+)?/",
     "active": true
   }
 ]
