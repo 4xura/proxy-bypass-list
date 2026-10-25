@@ -1,4 +1,4 @@
-"""Generate legacy and current FoxyProxy pattern imports from bypass-list."""
+"""Generate FoxyProxy patterns matching listed hosts and their subdomains."""
 
 import argparse
 import json
@@ -25,14 +25,14 @@ def main():
     outputs = {
         "foxyproxy-patterns.json": {
             "whitePatterns": [legacy("*", "all URLs")],
-            "blackPatterns": [legacy(host) for host in hosts],
+            "blackPatterns": [legacy("*." + host) for host in hosts],
         },
         "foxyproxy-patterns-v8.json": [
             dict(include="include", type="wildcard", title="all URLs", pattern="*", active=True),
             *[
                 dict(
                     include="exclude", type="regex", title=host,
-                    pattern=r"^(?:https?|wss?)://" + host.replace(".", r"\.") + r"(?::[0-9]+)?/",
+                    pattern=r"^(?:https?|wss?)://(?:[a-z0-9_-]+\.)*" + host.replace(".", r"\.") + r"(?::[0-9]+)?/",
                     active=True,
                 )
                 for host in hosts

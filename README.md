@@ -1,6 +1,6 @@
 # proxy-bypass-list
 
-Reduce browser background traffic in Burp Suite with FoxyProxy bypass patterns for Chrome, Firefox, Brave, and Edge. Listed hosts connect directly.
+Reduce browser background traffic in Burp Suite with FoxyProxy bypass patterns for Chrome, Firefox, Brave, and Edge. Listed hosts and their subdomains connect directly.
 
 ## Usage
 

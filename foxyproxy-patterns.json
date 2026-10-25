@@ -11,567 +11,567 @@
   "blackPatterns": [
     {
       "title": "",
-      "pattern": "shodan.io",
+      "pattern": "*.shodan.io",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "addons.mozilla.org",
+      "pattern": "*.addons.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ads.mozilla.org",
+      "pattern": "*.ads.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "arc.msn.com",
+      "pattern": "*.arc.msn.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "archive.mozilla.org",
+      "pattern": "*.archive.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "aus5.mozilla.org",
+      "pattern": "*.aus5.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "blobs.officehome.msocdn.com",
+      "pattern": "*.blobs.officehome.msocdn.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "blocklists.settings.services.mozilla.com",
+      "pattern": "*.blocklists.settings.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "browser.pipe.aria.microsoft.com",
+      "pattern": "*.browser.pipe.aria.microsoft.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "business.bing.com",
+      "pattern": "*.business.bing.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ciscobinary.openh264.org",
+      "pattern": "*.ciscobinary.openh264.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "classify-client.services.mozilla.com",
+      "pattern": "*.classify-client.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients1.google.com",
+      "pattern": "*.clients1.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients2.google.com",
+      "pattern": "*.clients2.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients2.googleusercontent.com",
+      "pattern": "*.clients2.googleusercontent.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients3.google.com",
+      "pattern": "*.clients3.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients4.google.com",
+      "pattern": "*.clients4.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients5.google.com",
+      "pattern": "*.clients5.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clients6.google.com",
+      "pattern": "*.clients6.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "clientservices.googleapis.com",
+      "pattern": "*.clientservices.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "connectivitycheck.gstatic.com",
+      "pattern": "*.connectivitycheck.gstatic.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "content-signature-2.cdn.mozilla.net",
+      "pattern": "*.content-signature-2.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "contile-images.services.mozilla.com",
+      "pattern": "*.contile-images.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "contile.services.mozilla.com",
+      "pattern": "*.contile.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "detectportal.firefox.com",
+      "pattern": "*.detectportal.firefox.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "dl-ssl.google.com",
+      "pattern": "*.dl-ssl.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "dl.google.com",
+      "pattern": "*.dl.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "download.cdn.mozilla.net",
+      "pattern": "*.download.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "download.mozilla.org",
+      "pattern": "*.download.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "edge.activity.windows.com",
+      "pattern": "*.edge.activity.windows.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "edge.microsoft.com",
+      "pattern": "*.edge.microsoft.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "edgedl.me.gvt1.com",
+      "pattern": "*.edgedl.me.gvt1.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "enterprise.activity.windows.com",
+      "pattern": "*.enterprise.activity.windows.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "enterprise-safebrowsing.googleapis.com",
+      "pattern": "*.enterprise-safebrowsing.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "firefox-portal-detection.com",
+      "pattern": "*.firefox-portal-detection.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "firefox.settings.services.mozilla.com",
+      "pattern": "*.firefox.settings.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "firefox-settings-attachments.cdn.mozilla.net",
+      "pattern": "*.firefox-settings-attachments.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ftp.mozilla.org",
+      "pattern": "*.ftp.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "getpocket.cdn.mozilla.net",
+      "pattern": "*.getpocket.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "graph.microsoft.com",
+      "pattern": "*.graph.microsoft.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "img-prod-cms-rt-microsoft-com.akamaized.net",
+      "pattern": "*.img-prod-cms-rt-microsoft-com.akamaized.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "incoming.telemetry.mozilla.org",
+      "pattern": "*.incoming.telemetry.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "location.services.mozilla.com",
+      "pattern": "*.location.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "merino.services.mozilla.com",
+      "pattern": "*.merino.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "mitmdetection.services.mozilla.com",
+      "pattern": "*.mitmdetection.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "mozilla-ohttp-dap.mozilla.fastly-edge.com",
+      "pattern": "*.mozilla-ohttp-dap.mozilla.fastly-edge.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "mozilla-ohttp.fastly-edge.com",
+      "pattern": "*.mozilla-ohttp.fastly-edge.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "normandy.cdn.mozilla.net",
+      "pattern": "*.normandy.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ntp.www.office.com",
+      "pattern": "*.ntp.www.office.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ocsp.digicert.com",
+      "pattern": "*.ocsp.digicert.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ocsp.pki.goog",
+      "pattern": "*.ocsp.pki.goog",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ocws.officeapps.live.com",
+      "pattern": "*.ocws.officeapps.live.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "odc.officeapps.live.com",
+      "pattern": "*.odc.officeapps.live.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ohttp-gateway-merino.services.mozilla.com",
+      "pattern": "*.ohttp-gateway-merino.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ohttp-merino.mozilla.fastly-edge.com",
+      "pattern": "*.ohttp-merino.mozilla.fastly-edge.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "optimizationguide-pa.googleapis.com",
+      "pattern": "*.optimizationguide-pa.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "prod.ohttp-gateway.prod.webservices.mozgcp.net",
+      "pattern": "*.prod.ohttp-gateway.prod.webservices.mozgcp.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "push.services.mozilla.com",
+      "pattern": "*.push.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "redirector.gvt1.com",
+      "pattern": "*.redirector.gvt1.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "safebrowsing-cache.google.com",
+      "pattern": "*.safebrowsing-cache.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "safebrowsing.google.com",
+      "pattern": "*.safebrowsing.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "safebrowsing.googleapis.com",
+      "pattern": "*.safebrowsing.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "safebrowsingrealtime.googleapis.com",
+      "pattern": "*.safebrowsingrealtime.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "sb-ssl.google.com",
+      "pattern": "*.sb-ssl.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "search.services.mozilla.com",
+      "pattern": "*.search.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "services.addons.mozilla.org",
+      "pattern": "*.services.addons.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "shavar.services.mozilla.com",
+      "pattern": "*.shavar.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "snippets.cdn.mozilla.net",
+      "pattern": "*.snippets.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "spocs.getpocket.com",
+      "pattern": "*.spocs.getpocket.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "static.addons.mozilla.net",
+      "pattern": "*.static.addons.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "substrate.office.com",
+      "pattern": "*.substrate.office.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "sync-1-us-west1-g.sync.services.mozilla.com",
+      "pattern": "*.sync-1-us-west1-g.sync.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "token.services.mozilla.com",
+      "pattern": "*.token.services.mozilla.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "tools.google.com",
+      "pattern": "*.tools.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "tracking-protection.cdn.mozilla.net",
+      "pattern": "*.tracking-protection.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "ukwest1-mediap.svc.ms",
+      "pattern": "*.ukwest1-mediap.svc.ms",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "update.googleapis.com",
+      "pattern": "*.update.googleapis.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "versioncheck-bg.addons.mozilla.org",
+      "pattern": "*.versioncheck-bg.addons.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "versioncheck.addons.mozilla.org",
+      "pattern": "*.versioncheck.addons.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "www.bing.com",
+      "pattern": "*.www.bing.com",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "www.googletagmanager.com",
+      "pattern": "*.www.googletagmanager.com",
       "type": 1,
       "protocols": 1,
       "active": true
