@@ -11,14 +11,14 @@
   "blackPatterns": [
     {
       "title": "",
-      "pattern": "127.0.0.1",
+      "pattern": "addons.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
     },
     {
       "title": "",
-      "pattern": "localhost",
+      "pattern": "ads.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -26,6 +26,13 @@
     {
       "title": "",
       "pattern": "arc.msn.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "archive.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -67,7 +74,77 @@
     },
     {
       "title": "",
+      "pattern": "ciscobinary.openh264.org",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "classify-client.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients1.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients2.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients2.googleusercontent.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients3.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients4.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients5.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clients6.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "clientservices.googleapis.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "connectivitycheck.gstatic.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -81,7 +158,49 @@
     },
     {
       "title": "",
+      "pattern": "contile-images.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "contile.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "detectportal.firefox.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "dl-ssl.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "dl.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "download.cdn.mozilla.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "download.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -102,7 +221,28 @@
     },
     {
       "title": "",
+      "pattern": "edgedl.me.gvt1.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "enterprise.activity.windows.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "enterprise-safebrowsing.googleapis.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "firefox-portal-detection.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -117,6 +257,13 @@
     {
       "title": "",
       "pattern": "firefox-settings-attachments.cdn.mozilla.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "ftp.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -152,6 +299,34 @@
     {
       "title": "",
       "pattern": "location.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "merino.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "mitmdetection.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "mozilla-ohttp-dap.mozilla.fastly-edge.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "mozilla-ohttp.fastly-edge.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -200,6 +375,34 @@
     },
     {
       "title": "",
+      "pattern": "ohttp-gateway-merino.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "ohttp-merino.mozilla.fastly-edge.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "optimizationguide-pa.googleapis.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "prod.ohttp-gateway.prod.webservices.mozgcp.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "push.services.mozilla.com",
       "type": 1,
       "protocols": 1,
@@ -207,7 +410,42 @@
     },
     {
       "title": "",
+      "pattern": "redirector.gvt1.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "safebrowsing-cache.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "safebrowsing.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "safebrowsing.googleapis.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "safebrowsingrealtime.googleapis.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "sb-ssl.google.com",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -242,7 +480,49 @@
     },
     {
       "title": "",
+      "pattern": "spocs.getpocket.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "static.addons.mozilla.net",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
       "pattern": "substrate.office.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "sync-1-us-west1-g.sync.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "token.services.mozilla.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "tools.google.com",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "tracking-protection.cdn.mozilla.net",
       "type": 1,
       "protocols": 1,
       "active": true
@@ -264,6 +544,13 @@
     {
       "title": "",
       "pattern": "versioncheck-bg.addons.mozilla.org",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "",
+      "pattern": "versioncheck.addons.mozilla.org",
       "type": 1,
       "protocols": 1,
       "active": true

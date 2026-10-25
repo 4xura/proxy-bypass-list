@@ -1,0 +1,569 @@
+[
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "all URLs",
+    "pattern": "*",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "addons.mozilla.org",
+    "pattern": "^(?:https?|wss?)://addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ads.mozilla.org",
+    "pattern": "^(?:https?|wss?)://ads\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "arc.msn.com",
+    "pattern": "^(?:https?|wss?)://arc\\.msn\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "archive.mozilla.org",
+    "pattern": "^(?:https?|wss?)://archive\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "aus5.mozilla.org",
+    "pattern": "^(?:https?|wss?)://aus5\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "blobs.officehome.msocdn.com",
+    "pattern": "^(?:https?|wss?)://blobs\\.officehome\\.msocdn\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "blocklists.settings.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://blocklists\\.settings\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "browser.pipe.aria.microsoft.com",
+    "pattern": "^(?:https?|wss?)://browser\\.pipe\\.aria\\.microsoft\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "business.bing.com",
+    "pattern": "^(?:https?|wss?)://business\\.bing\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ciscobinary.openh264.org",
+    "pattern": "^(?:https?|wss?)://ciscobinary\\.openh264\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "classify-client.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://classify-client\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients1.google.com",
+    "pattern": "^(?:https?|wss?)://clients1\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients2.google.com",
+    "pattern": "^(?:https?|wss?)://clients2\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients2.googleusercontent.com",
+    "pattern": "^(?:https?|wss?)://clients2\\.googleusercontent\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients3.google.com",
+    "pattern": "^(?:https?|wss?)://clients3\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients4.google.com",
+    "pattern": "^(?:https?|wss?)://clients4\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients5.google.com",
+    "pattern": "^(?:https?|wss?)://clients5\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clients6.google.com",
+    "pattern": "^(?:https?|wss?)://clients6\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "clientservices.googleapis.com",
+    "pattern": "^(?:https?|wss?)://clientservices\\.googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "connectivitycheck.gstatic.com",
+    "pattern": "^(?:https?|wss?)://connectivitycheck\\.gstatic\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "content-signature-2.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://content-signature-2\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "contile-images.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://contile-images\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "contile.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://contile\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "detectportal.firefox.com",
+    "pattern": "^(?:https?|wss?)://detectportal\\.firefox\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "dl-ssl.google.com",
+    "pattern": "^(?:https?|wss?)://dl-ssl\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "dl.google.com",
+    "pattern": "^(?:https?|wss?)://dl\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "download.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://download\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "download.mozilla.org",
+    "pattern": "^(?:https?|wss?)://download\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "edge.activity.windows.com",
+    "pattern": "^(?:https?|wss?)://edge\\.activity\\.windows\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "edge.microsoft.com",
+    "pattern": "^(?:https?|wss?)://edge\\.microsoft\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "edgedl.me.gvt1.com",
+    "pattern": "^(?:https?|wss?)://edgedl\\.me\\.gvt1\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "enterprise.activity.windows.com",
+    "pattern": "^(?:https?|wss?)://enterprise\\.activity\\.windows\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "enterprise-safebrowsing.googleapis.com",
+    "pattern": "^(?:https?|wss?)://enterprise-safebrowsing\\.googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "firefox-portal-detection.com",
+    "pattern": "^(?:https?|wss?)://firefox-portal-detection\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "firefox.settings.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://firefox\\.settings\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "firefox-settings-attachments.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://firefox-settings-attachments\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ftp.mozilla.org",
+    "pattern": "^(?:https?|wss?)://ftp\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "getpocket.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://getpocket\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "graph.microsoft.com",
+    "pattern": "^(?:https?|wss?)://graph\\.microsoft\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "img-prod-cms-rt-microsoft-com.akamaized.net",
+    "pattern": "^(?:https?|wss?)://img-prod-cms-rt-microsoft-com\\.akamaized\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "incoming.telemetry.mozilla.org",
+    "pattern": "^(?:https?|wss?)://incoming\\.telemetry\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "location.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://location\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "merino.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://merino\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "mitmdetection.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://mitmdetection\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "mozilla-ohttp-dap.mozilla.fastly-edge.com",
+    "pattern": "^(?:https?|wss?)://mozilla-ohttp-dap\\.mozilla\\.fastly-edge\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "mozilla-ohttp.fastly-edge.com",
+    "pattern": "^(?:https?|wss?)://mozilla-ohttp\\.fastly-edge\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "normandy.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://normandy\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ntp.www.office.com",
+    "pattern": "^(?:https?|wss?)://ntp\\.www\\.office\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ocsp.digicert.com",
+    "pattern": "^(?:https?|wss?)://ocsp\\.digicert\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ocsp.pki.goog",
+    "pattern": "^(?:https?|wss?)://ocsp\\.pki\\.goog(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ocws.officeapps.live.com",
+    "pattern": "^(?:https?|wss?)://ocws\\.officeapps\\.live\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "odc.officeapps.live.com",
+    "pattern": "^(?:https?|wss?)://odc\\.officeapps\\.live\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ohttp-gateway-merino.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://ohttp-gateway-merino\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ohttp-merino.mozilla.fastly-edge.com",
+    "pattern": "^(?:https?|wss?)://ohttp-merino\\.mozilla\\.fastly-edge\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "optimizationguide-pa.googleapis.com",
+    "pattern": "^(?:https?|wss?)://optimizationguide-pa\\.googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "prod.ohttp-gateway.prod.webservices.mozgcp.net",
+    "pattern": "^(?:https?|wss?)://prod\\.ohttp-gateway\\.prod\\.webservices\\.mozgcp\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "push.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://push\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "redirector.gvt1.com",
+    "pattern": "^(?:https?|wss?)://redirector\\.gvt1\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "safebrowsing-cache.google.com",
+    "pattern": "^(?:https?|wss?)://safebrowsing-cache\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "safebrowsing.google.com",
+    "pattern": "^(?:https?|wss?)://safebrowsing\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "safebrowsing.googleapis.com",
+    "pattern": "^(?:https?|wss?)://safebrowsing\\.googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "safebrowsingrealtime.googleapis.com",
+    "pattern": "^(?:https?|wss?)://safebrowsingrealtime\\.googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "sb-ssl.google.com",
+    "pattern": "^(?:https?|wss?)://sb-ssl\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "search.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://search\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "services.addons.mozilla.org",
+    "pattern": "^(?:https?|wss?)://services\\.addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "shavar.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://shavar\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "snippets.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://snippets\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "spocs.getpocket.com",
+    "pattern": "^(?:https?|wss?)://spocs\\.getpocket\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "static.addons.mozilla.net",
+    "pattern": "^(?:https?|wss?)://static\\.addons\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "substrate.office.com",
+    "pattern": "^(?:https?|wss?)://substrate\\.office\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "sync-1-us-west1-g.sync.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://sync-1-us-west1-g\\.sync\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "token.services.mozilla.com",
+    "pattern": "^(?:https?|wss?)://token\\.services\\.mozilla\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "tools.google.com",
+    "pattern": "^(?:https?|wss?)://tools\\.google\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "tracking-protection.cdn.mozilla.net",
+    "pattern": "^(?:https?|wss?)://tracking-protection\\.cdn\\.mozilla\\.net(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "ukwest1-mediap.svc.ms",
+    "pattern": "^(?:https?|wss?)://ukwest1-mediap\\.svc\\.ms(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "update.googleapis.com",
+    "pattern": "^(?:https?|wss?)://update\\.googleapis\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "versioncheck-bg.addons.mozilla.org",
+    "pattern": "^(?:https?|wss?)://versioncheck-bg\\.addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "versioncheck.addons.mozilla.org",
+    "pattern": "^(?:https?|wss?)://versioncheck\\.addons\\.mozilla\\.org(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "www.bing.com",
+    "pattern": "^(?:https?|wss?)://www\\.bing\\.com(?::[0-9]+)?/",
+    "active": true
+  },
+  {
+    "include": "exclude",
+    "type": "regex",
+    "title": "www.googletagmanager.com",
+    "pattern": "^(?:https?|wss?)://www\\.googletagmanager\\.com(?::[0-9]+)?/",
+    "active": true
+  }
+]
