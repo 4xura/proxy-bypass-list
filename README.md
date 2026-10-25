@@ -10,7 +10,7 @@ Reduce browser background traffic in Burp Suite with FoxyProxy bypass patterns f
 
 For older versions, use [foxyproxy-patterns.json](foxyproxy-patterns.json). Remove previous imported patterns before reimporting.
 
-**Local lab traffic goes through Burp**, including `localhost`, `127.0.0.1`, `::1`, and private IPs. If your browser still connects directly, check its [localhost proxy settings](https://learn.microsoft.com/en-us/microsoft-cloud/dev/dev-proxy/how-to/intercept-localhost-requests).
+Localhost, loopback, and private IP traffic remain available for interception.
 
 ## Update
 
